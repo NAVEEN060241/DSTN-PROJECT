@@ -1,0 +1,167 @@
+:root {
+  --primary-color: #6e67ed;
+  --secondary-color: #ede7f2;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins-Regular;
+}
+
+/* Module - 01 Home Section */
+/* Navbar */
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 10px 0;
+  position: sticky;
+}
+
+nav div:nth-child(1) {
+  margin-left: 50px;
+}
+
+nav div:nth-child(3) {
+  margin-right: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  font-weight: bold;
+}
+
+nav ul li a {
+  font-size: 1.1em;
+  padding: 5px 20px;
+  border-radius: 50px;
+  transition: 0.5s ease;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+nav .signIn,
+.home-section div:nth-child(1) a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 6px 20px;
+  border-radius: 50px;
+  transition: 0.3s ease all;
+}
+
+nav a:hover,
+.home-section div:nth-child(1) a:hover {
+  background-color: black;
+}
+
+/* Section */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+/* Home Section */
+.home-section {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-section div:nth-child(1) {
+  text-align: center;
+  line-height: 4.5em;
+}
+
+.home-section div:nth-child(1) h1 {
+  font-size: 2.2em;
+}
+
+.home-section div:nth-child(1) p {
+  font-size: 1.2em;
+}
+
+/* Module - 02 Stories Section  */
+.stories-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+.stories-section-header {
+  line-height: 3em;
+}
+
+.stories-section-header h2 {
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+.story-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.story-cards div {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 30px 10px 0 10px;
+  line-height: 2.5em;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.story-cards div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.story-cards div p:nth-of-type(1) {
+  font-size: 1.2em;
+}
+.story-cards div p:nth-of-type(2) {
+  margin-bottom: 15px;
+}
+.story-cards div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 50px 50px 0 0;
+  padding: 10px 40px;
+  transition: 0.3s ease;
+}
+
+.story-cards div a:hover {
+  background-color: var(--primary-color);
+}
