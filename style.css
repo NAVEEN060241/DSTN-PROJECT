@@ -27,6 +27,7 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 
 nav {
@@ -165,3 +166,50 @@ main {
 .story-cards div a:hover {
   background-color: var(--primary-color);
 }
+
+/* Module - 03 Pricing Section */
+.pricing{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+
+
+.pricing div:nth-child(1),
+.pricing div:nth-child(2),
+.pricing div:nth-child(3) {
+  padding: 15px;
+  border-radius: 1px;
+  border-color: #ede7f2;
+  border-style: solid;
+  width: 350px;
+  height: 400px;
+  position: relative;
+  background-color: #ede7f2;
+  border-radius: 15px;   
+  font-size: 15px;                                  
+  box-shadow: 5px 5px #6e67ed;
+}
+
+.pricing h2, .pricing p, .pricing h4{
+  text-align: center;
+}
+
+.pricing button{
+  height: 35px;
+  width: 100px;
+  border-color: #6e67ed;
+  background-color: #6e67ed;
+  color: white;
+  border-radius: 18px;
+  position: absolute;
+  top: 380px;
+  left: 120px;
+  font-family: Poppins-Regular;
+  outline: none;
+  border: none;
+}
+
+
+/* Module - 03 Home Section */
