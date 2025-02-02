@@ -212,4 +212,68 @@ main {
 }
 
 
-/* Module - 03 Home Section */
+/* Module - 04 -Services */
+/* styles.css */
+body {
+  font-family: Poppins-Regular;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.header {
+  font-family: Poppins-Regular;
+  color: blueviolet;
+  font-size: 26px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+ 
+  
+  
+}
+.header1 {
+  font-family: Poppins-Regular;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+  
+  
+}
+
+.services {
+  margin-top: 0px;
+  font-size: 15px;
+}
+.service-item {
+  background: blueviolet;;
+  display: inline-block;
+  padding: 15px 120px;
+  margin: 10px;
+  border-radius: 16px;
+  box-shadow:#6e67ed;
+}
+.img-container{
+  display:flex ;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+
+.para{
+  display: inline-block;
+  background-color: #000;
+  font: Poppins-Regular;
+  text-align:center;
+  color: #ede7f2;
+  padding: 5px 5px;
+  margin: 15px 15px 30px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+
+}
+/* module 4 over*/
