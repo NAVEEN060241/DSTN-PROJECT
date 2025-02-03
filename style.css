@@ -277,3 +277,56 @@ body {
 
 }
 /* module 4 over*/
+
+/* Module - 05 - Footer/Contact */
+footer {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.footer-container nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-container nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+footer nav{
+  margin-left: 30em;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-container p {
+  font-size: 0.9rem;
+  color: #666;
+}
